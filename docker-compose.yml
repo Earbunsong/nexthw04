@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   online-shop:
-    image: test-jenkins
-    container_name: test-jenkins-container
+    image: test-nextjs-jenkins
+    container_name: test-nextjs-jenkins-container
     restart: always
     build:
       context: .
