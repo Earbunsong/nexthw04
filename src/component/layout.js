@@ -4,11 +4,11 @@ import footer from './footer'
 export default function layout({children}) {
   return (
     <>
-     {/* <NavbarComponent/>
+     <NavbarComponent/>
      <main>
         {children}
      </main>
-     <footer/> */}
+     <footer/>
     </>
   )
 }
